@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_black_24dp"
+        android:title="@string/title_home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_catalog"
+        android:enabled="true"
+        android:icon="@drawable/baseline_folder_black_24dp"
+        android:title="@string/title_catalog"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_scan"
+        android:enabled="true"
+        android:icon="@drawable/ar_black"
+        app:showAsAction="ifRoom"
+        android:title="Scan" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:enabled="true"
+        android:icon="@drawable/baseline_search_black_24dp"
+        android:title="@string/title_search"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:enabled="true"
+        android:icon="@drawable/baseline_account_circle_black_24dp"
+        android:title="@string/title_profile"
+        app:showAsAction="ifRoom"/>
+
+</menu>

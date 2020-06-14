@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ar-diplom-final</string>
+
+    <string name="welcome_title">Welcome to AR App!</string>
+
+    <string name="login_with_email">Sign in with email</string>
+
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_catalog">Catalog</string>
+    <string name="title_search">Categories</string>
+    <string name="title_profile">Profile</string>
+
+    <string-array name="categories">
+        <item>Animals</item>
+        <item>Education</item>
+        <item>Art</item>
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Сosmetic</item>
+        <item>Plants</item>
+        <item>Architecture</item>
+        <item>Technology</item>
+        <item>Elements of decor</item>
+    </string-array>
+
+    <string name="spinnerHint">set model categoty..</string>
+
+</resources>
